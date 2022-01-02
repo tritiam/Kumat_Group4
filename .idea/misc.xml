@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kumat_Group4/app/src/main/res/drawable-v24/btn_gradient_style.xml" value="0.2046875" />
+        <entry key="..\:/Kumat_Group4/app/src/main/res/drawable-v24/indicator_default.xml" value="0.2046875" />
+        <entry key="..\:/Kumat_Group4/app/src/main/res/layout/activity_intro.xml" value="0.18854166666666666" />
+        <entry key="..\:/Kumat_Group4/app/src/main/res/layout/activity_materi_kelas2.xml" value="0.18854166666666666" />
+        <entry key="..\:/Kumat_Group4/app/src/main/res/layout/layout_screen.xml" value="0.18854166666666666" />
+        <entry key="..\:/Kumat_Group4/app/src/main/res/layout/toolbarperkalian.xml" value="0.18854166666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Kumat_Group4/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Kumat_Group4/app/src/main/res/layout/activity_materikelas1.xml" value="0.1" />
         <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/Kumat_Group4/app/src/main/res/drawable-v24/bacground_button.xml" value="0.18981481481481483" />

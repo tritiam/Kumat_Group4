@@ -43,6 +43,6 @@ public class splashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },SPLASH_SCREEN);
+        },3000L);//3000 L = 3 detik
     }
 }

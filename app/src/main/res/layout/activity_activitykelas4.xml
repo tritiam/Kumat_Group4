@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context=".Main_menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/tolbarkelas4"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="284dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="60dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="#008c8c"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rectange"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Perpangkatan"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="95dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gmbr1"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next"
+                        android:id="@+id/nextper"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginStart="250dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="284dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="60dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="#008c8c"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rectange"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Akar Pangkat
+                        Tiga"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="95dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gmbr3"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next"
+                        android:id="@+id/nextakar"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginStart="250dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="284dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="60dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="#008c8c"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rectange"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Faktor
+                        Kelipatan"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="95dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gmbr2"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next"
+                        android:id="@+id/nextfak"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginStart="250dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg"
+                    android:layout_marginHorizontal="65dp"
+                    android:layout_marginTop="100dp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

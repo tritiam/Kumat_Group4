@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context=".Main_menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+          <include layout="@layout/tolbarmenu"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="320dp"
+                    android:layout_height="225dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="60dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#BAE1E4"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="130dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/image" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rectangel"
+                        android:background="@android:color/transparent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="85dp"/>
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginLeft="280dp"
+                        android:id="@+id/nextmat"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/next" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Materi"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginHorizontal="35dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pembahasan dan Contoh Soal Serta video pembahasan"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="150dp"
+                        android:layout_marginHorizontal="35dp"/>
+
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="320dp"
+                    android:layout_height="225dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="60dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="#BAE1E4"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+                    <ImageView
+                        android:layout_width="56dp"
+                        android:layout_height="80dp"
+                        android:layout_marginHorizontal="130dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/imag" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/rectangel"
+                        android:layout_marginTop="85dp"/>
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="280dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/next" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kuis"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginHorizontal="35dp"/>
+
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pembahasan dan Penyelesaian"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="150dp"
+                        android:layout_marginHorizontal="35dp"/>
+
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
